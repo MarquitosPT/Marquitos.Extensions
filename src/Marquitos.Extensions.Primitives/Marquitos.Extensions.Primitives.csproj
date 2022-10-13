@@ -1,9 +1,47 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
+  
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+		<TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-  </PropertyGroup>
+		<Product>Marquitos Extensions Primitives</Product>
+		<Description></Description>
+		<Company>MarquitosPT</Company>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<!--  Visual Studio Command Line:   sn -k MarquitosPT.snk -->
+		<!--  Visual Studio Command Line:   sn -p MarquitosPT.snk MarquitosPT.PublicKey-->
+		<AssemblyOriginatorKeyFile>../../tools/MarquitosPT.snk</AssemblyOriginatorKeyFile>
+		<PublicSign Condition=" '$(OS)' != 'Windows_NT' ">true</PublicSign>
+		<SignAssembly>true</SignAssembly>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<GenerateAssemblyTitleAttribute>true</GenerateAssemblyTitleAttribute>
+		<GenerateAssemblyDescriptionAttribute>true</GenerateAssemblyDescriptionAttribute>
+		<NoWarn>$(NoWarn);1591</NoWarn>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<PackageId>Marquitos.Extensions.Primitives</PackageId>
+		<PackageTags>net framework extensions</PackageTags>
+		<PackageProjectUrl>https://github.com/MarquitosPT/Marquitos.Extensions</PackageProjectUrl>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+		<RepositoryType>git</RepositoryType>
+		<RepositoryUrl>https://github.com/MarquitosPT/Marquitos.Extensions</RepositoryUrl>
+		<Authors>Marcos Gomes</Authors>
+		<Copyright>Copyright © 2022 by MarquitosPT</Copyright>
+		<Owners>MarquitosPT</Owners>
+		<Title>Marquitos Extensions Primitives</Title>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<Version>1.0.0</Version>
+		<AssemblyVersion>1.0.0</AssemblyVersion>
+		<FileVersion>1.0.0.1</FileVersion>
+		<IncludeSymbols>True</IncludeSymbols>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+	</PropertyGroup>
 
 </Project>
