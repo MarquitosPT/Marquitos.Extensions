@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lQJ/K334YUrOei3upKtN6uW1qPi9Od+meaZAuSF/sEexuYJQ3hQVfck8ZKwj1S/HN8VlEuo19gp8Et9bbkngjA==",
+  "dgSpecHash": "ukU/p4m1f55xQw69nCTIlwIWJ3fSZQs19FUTvH+rR+NtIA4IO5uiH6XD2xMUMiVhCeAl+giNLZ7DyNoGunNrgw==",
   "success": true,
-  "projectFilePath": "/Users/marcos/Projects/MarquitosPT/Marquitos.Extensions/src/Marquitos.Extensions.Primitives/Marquitos.Extensions.Primitives.csproj",
+  "projectFilePath": "C:\\Users\\marqu\\Source\\Repos\\MarquitosPT\\Marquitos.Extensions\\src\\Marquitos.Extensions.Primitives\\Marquitos.Extensions.Primitives.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
