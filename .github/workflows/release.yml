@@ -27,6 +27,8 @@ jobs:
       run: dotnet pack src/Marquitos.Extensions.Primitives --configuration Release /p:Version=${VERSION} --no-build --output ./Publish
     - name: Pack EntityFrameworkCore
       run: dotnet pack src/Marquitos.Extensions.EntityFrameworkCore --configuration Release /p:Version=${VERSION} --no-build --output ./Publish
+    - name: Pack Salesforce Commerce
+      run: dotnet pack src/Marquitos.Extensions.Salesforce.Commerce --configuration Release /p:Version=${VERSION} --no-build --output ./Publish
     - name: Publish to Nuget
       run: dotnet nuget push Publish/*.nupkg --source https://api.nuget.org/v3/index.json --api-key ${NUGET_TOKEN} --skip-duplicate
       env:

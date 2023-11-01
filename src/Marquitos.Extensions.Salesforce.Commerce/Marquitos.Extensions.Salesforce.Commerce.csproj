@@ -1,0 +1,55 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<RootNamespace>Marquitos.Salesforce.Commerce</RootNamespace>
+		<Product>Marquitos Extensions for Salesforce Commerce</Product>
+		<Description>Extensions to create import/export models to Salesforce Commerce.</Description>
+		<Company>MarquitosPT</Company>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<!--  Visual Studio Command Line:   sn -k MarquitosPT.snk -->
+		<!--  Visual Studio Command Line:   sn -p MarquitosPT.snk MarquitosPT.PublicKey-->
+		<AssemblyOriginatorKeyFile>../../tools/MarquitosPT.snk</AssemblyOriginatorKeyFile>
+		<PublicSign Condition=" '$(OS)' != 'Windows_NT' ">true</PublicSign>
+		<SignAssembly>true</SignAssembly>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<GenerateAssemblyTitleAttribute>true</GenerateAssemblyTitleAttribute>
+		<GenerateAssemblyDescriptionAttribute>true</GenerateAssemblyDescriptionAttribute>
+		<NoWarn>$(NoWarn);1591</NoWarn>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<PackageId>Marquitos.Extensions.Salesforce.Commerce</PackageId>
+		<PackageTags>net framework extensions salesforce commerce</PackageTags>
+		<PackageProjectUrl>https://github.com/MarquitosPT/Marquitos.Extensions</PackageProjectUrl>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+		<RepositoryType>git</RepositoryType>
+		<RepositoryUrl>https://github.com/MarquitosPT/Marquitos.Extensions</RepositoryUrl>
+		<Authors>Marcos Gomes</Authors>
+		<Copyright>Copyright © 2023 by MarquitosPT</Copyright>
+		<Owners>MarquitosPT</Owners>
+		<Title>Marquitos Extensions for Salesforce Commerce</Title>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<Version>1.0.0</Version>
+		<AssemblyVersion>1.0.0</AssemblyVersion>
+		<FileVersion>1.0.0.1</FileVersion>
+		<IncludeSymbols>True</IncludeSymbols>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+</Project>

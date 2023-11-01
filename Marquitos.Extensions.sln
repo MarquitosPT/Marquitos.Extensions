@@ -7,7 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A901B324-AB6
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Marquitos.Extensions.Primitives", "src\Marquitos.Extensions.Primitives\Marquitos.Extensions.Primitives.csproj", "{332DB1AC-09C6-47E9-8C04-F58C39184097}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marquitos.Extensions.EntityFrameworkCore", "src\Marquitos.Extensions.EntityFrameworkCore\Marquitos.Extensions.EntityFrameworkCore.csproj", "{CCF9A626-E4EF-46EF-A3E7-425BF7A790C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Marquitos.Extensions.EntityFrameworkCore", "src\Marquitos.Extensions.EntityFrameworkCore\Marquitos.Extensions.EntityFrameworkCore.csproj", "{CCF9A626-E4EF-46EF-A3E7-425BF7A790C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marquitos.Extensions.Salesforce.Commerce", "src\Marquitos.Extensions.Salesforce.Commerce\Marquitos.Extensions.Salesforce.Commerce.csproj", "{07601426-6ED7-42CC-A291-91FEAE99EA20}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,10 @@ Global
 		{CCF9A626-E4EF-46EF-A3E7-425BF7A790C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCF9A626-E4EF-46EF-A3E7-425BF7A790C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCF9A626-E4EF-46EF-A3E7-425BF7A790C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07601426-6ED7-42CC-A291-91FEAE99EA20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07601426-6ED7-42CC-A291-91FEAE99EA20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07601426-6ED7-42CC-A291-91FEAE99EA20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07601426-6ED7-42CC-A291-91FEAE99EA20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +36,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{332DB1AC-09C6-47E9-8C04-F58C39184097} = {A901B324-AB6A-4AAA-BBE1-2AE4D6AF4E9B}
 		{CCF9A626-E4EF-46EF-A3E7-425BF7A790C4} = {A901B324-AB6A-4AAA-BBE1-2AE4D6AF4E9B}
+		{07601426-6ED7-42CC-A291-91FEAE99EA20} = {A901B324-AB6A-4AAA-BBE1-2AE4D6AF4E9B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A37C8BA7-D691-46B5-852B-2C809F27F049}
